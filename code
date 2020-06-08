@@ -1,0 +1,6 @@
+const kelvin=0; // define variable
+const celcius = kelvin - 273; // define celcius
+let fahrenheit= celcius * (9/5)+32;// put formula
+
+fahrenheit= Math.floor(fahrenheit);//Math formula
+console.log(`the temperture is ${fahrenheit} degrees fahrenheit.`);
